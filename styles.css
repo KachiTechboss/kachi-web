@@ -40,17 +40,6 @@ h3{
     position: relative;
     padding-top: 100px;
 }
-.bottom-cloud{
-    position: absolute;
-    left: 300px;
-    bottom: 400px;
-    top: auto;
-}
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 40px;
-}
 .intro{
   width: 30%;
   margin: auto;
@@ -133,7 +122,7 @@ hr{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-@media screen and(max-width:500px) {
+@media screen and(max-width:700px) {
  .body{
       width: 50%;
       overflow: hidden;
@@ -141,15 +130,8 @@ hr{
  .top-container{
   overflow: hidden;
  }
- .bottom-cloud{
-  width: 50%;
- }
-
-}
  .intro{
   width: 50%;
   height: 5vh;
  }
- 
-
-   
+}
