@@ -42,8 +42,9 @@ h3{
 }
 .bottom-cloud{
     position: absolute;
-    left: 250px;
-    bottom: 300px;
+    left: 300px;
+    bottom: 400px;
+    top: auto;
 }
 .top-cloud{
     position: absolute;
@@ -54,7 +55,6 @@ h3{
   width: 30%;
   margin: auto;
   z-index: 1000;
-  font-size: 30px;
   color: black;
 }
 .profile-img{
@@ -133,9 +133,23 @@ hr{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-@media screen and(max-width:700px) {
+@media screen and(max-width:500px) {
  .body{
       width: 50%;
       overflow: hidden;
- } 
-}  
+ }
+ .top-container{
+  overflow: hidden;
+ }
+ .bottom-cloud{
+  width: 50%;
+ }
+
+}
+ .intro{
+  width: 50%;
+  height: 5vh;
+ }
+ 
+
+   
